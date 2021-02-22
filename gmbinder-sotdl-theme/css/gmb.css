@@ -1,5 +1,4 @@
 @import url('https://zhanfr.github.io/gmbinder-sotdl-theme/fonts/stylesheet.css');
-/** Global properties **/
 
 :root {
     --img-header-banner: url(../img/backgrounds/header-banner.png);
@@ -29,10 +28,6 @@
     --blend-corner-inverted-small: url('../img/blends/sotdl-blend-corner-inverted-small.png');
     --blend-corner-quarter: url('../img/blends/sotdl-blend-corner-quarter.png');
 }
-
-/** Global properties END **/
-
-/**  **/
 
 .brewRenderer .pages>.gmb {
     margin-bottom: 10px;
