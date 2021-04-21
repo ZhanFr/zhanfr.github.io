@@ -1168,3 +1168,244 @@ img.half-top {
 }
 
 /*** Blending END ***/
+
+/** FIXES **/
+.gmb h1, .gmb h2, .gmb h3, .gmb h4, .gmb h5, .gmb h6, .gmb h7 {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.gmb h1:not(.title) {
+    display: inline;
+}
+
+.gmb h1.credits, .gmb h1#table-des-matieres {
+    display: block;
+}
+
+.gmb h1.title span {
+    text-transform: none;
+}
+
+.gmb h4.table {
+    color: black;
+    text-align: center;
+}
+
+.gmb h4.table.red {
+    color: var(--color-headers-main);
+}
+
+.gmb h4.table+table tbody tr td, .gmb h4.table+table thead tr th {
+    text-align: center !important;
+}
+
+.gmb .split-table h4.table {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gmb ul {
+    margin-top: 0.5em;
+    list-style-type: disc;
+    text-indent: 0;
+}
+
+.gmb p + ul {
+    margin-top: 0.5em;
+}
+
+.gmb ul li strong, .gmb p+ul li strong {
+    color: var(--color-headers-main);
+    font-family: Athelas;
+    font-size: 11pt;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.gmb li { margin-top: 0.3em; }
+
+.gmb ul + div.column-break + ul li {
+    margin-left: 0;
+}
+
+.gmb table+ul li {
+    font-size: 11pt;
+}
+
+.gmb p, .gmb li { 
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+.gmb h4.table-text+table tr td:not(:first-of-type) { text-align: left !important }
+.gmb h4.table-text+table thead th:not(:first-of-type) { text-align: left !important }
+
+.gmb h4.table.table-first-left+table tbody tr td:first-of-type { text-align: left !important }
+.gmb h4.table.table-first-left+table thead th:first-of-type { text-align: left !important }
+.gmb h4.table.table-first-left+table tbody tr td:first-of-type {
+    padding: 3px 6px 3px 6px;
+}
+
+
+.gmb h6 {
+    color: black;
+}
+
+.gmb .character-bloc ul li strong, .gmb .character-bloc p+ul li strong {
+    font-family: GothamBold;
+    font-weight: normal;
+    font-size: 9pt;
+    letter-spacing: -0.02em;
+    color: var(--color-strong);
+}
+
+.gmb .character-bloc ul {
+    list-style-type: none;
+}
+
+.gmb .character-bloc p, .gmb .character-bloc li, .gmb .character-bloc ol {
+    font-family: GothamBook;
+    font-weight: normal;
+    font-size: 9pt;
+    color: var(--color-strong);
+}
+
+.gmb .character-bloc ul li {
+    margin-top: 0;
+    list-style-type: none;
+    font-family: GothamBook;
+    font-weight: normal;
+    font-size: 9pt;
+    color: var(--color-strong);
+    text-indent: -1em;
+}
+
+.gmb .character-bloc {
+    margin-bottom: 1em;
+}
+
+.gmb .character-bloc ul+p {
+    font-family: GothamBook;
+    font-weight: normal;
+    font-size: 9pt;
+    color: var(--color-strong);
+    text-indent: 0;
+    padding-left: 0.3em;
+}
+
+.gmb .character-bloc.flowing ul li:first-of-type {
+    text-indent: 0;
+}
+
+.gmb p.cover-footer {
+    left: 0px;
+    bottom: 10px;
+    width: 100%;
+    text-align:center;
+}
+
+.gmb .toc a {color: inherit !important;}
+.gmb .toc li span:nth-child(2){width: auto;overflow: hidden;white-space: nowrap;display: block;}
+.gmb .toc li span:nth-child(2):after{font-family:BookSanity;font-size:0.317cm;font-weight:normal;content:" ........................................""........................................."".........................................";}
+.gmb .toc li span:first-child{float:right;font-family:BookSanity;font-size:0.317cm;font-weight:normal;color:black;margin-left:1px;}
+.gmb .toc li h3 span:nth-child(2):after{content: " ";}
+.gmb .toc li h3 {margin-bottom: 4px !important;margin-top: 10px !important;line-height: initial !important;}
+/* .gmb .toc li h4 {display: block; position: relative;}
+.gmb .toc li h4 span:first-child {float: unset; position: absolute; right: 0px; bottom: 3px; }
+.gmb .toc li h4 span:nth-child(2) {margin-right: 0.5em;} */
+.gmb .toc li h5 {margin-bottom: 0.5px !important;margin-top: 2px !important;line-height: initial !important;}
+.gmb .toc li h3 span:first-child{line-height: 2.3em !important;}
+.gmb .toc ul ul {margin-left: 10px !important; margin-top: 0;}
+.gmb .toc>ul>li {margin-bottom: initial !important;}
+.gmb .toc ul li ul li {list-style-type: none; line-height: 0.9em;}
+
+.gmb .toc ul li h5 {
+    color: var(--color-headers-main);
+    font-family: Athelas;
+    font-size: 11pt;
+    text-align: left;
+    letter-spacing: 0;
+    border-bottom: none;
+}
+
+.gmb .spell strong {
+    color: black;
+}
+
+.gmb div.spell ul li strong {
+    font-family: GothamBold;
+    font-weight: normal;
+    font-size: 9pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb div.spell p strong {
+    font-size: 9pt;
+}
+
+.gmb div.spell p, .gmb div.spell ul li {
+    font-family: GothamBook;
+    font-weight: normal;
+    font-size: 9pt;
+    letter-spacing: -0.02em;
+}
+
+.gmb div.spell ul li {
+    text-indent: -1em;
+    margin-left: 0.5em;
+}
+
+.gmb div.spell ul+hr {
+    border-color: var(--color-headers-main);
+}
+
+.gmb div.spell hr+p {
+    margin: 0.5em 0 10.5px;
+}
+
+.gmb div.spell p+ul {
+    margin-bottom: 1em;
+    margin-top: -0.5em;
+}
+
+.gmb div.spell div.spell-body ul li {
+    margin-left: 1em;
+    text-indent: 0;
+    list-style-type: disc;
+}
+
+.gmb .action-list {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gmb .action-list .action-list-row span {
+    color: var(--color-headers-main);
+    font-family: Athelas;
+    font-weight: bold;
+    font-size: 11pt;
+    text-align: left;
+    letter-spacing: 0;
+    border-bottom: none;
+}
+
+.gmb .action-list .action-list-row span:not(:last-of-type):after {
+    content: " • ";
+    color: black;
+}
+
+.gmb img.half-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gmb hr+section blockquote h2:before {
+    content: "";
+}
+
+.gmb hr+section blockquote {
+    margin-bottom: 1em;
+}
