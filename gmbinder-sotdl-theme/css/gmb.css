@@ -1242,12 +1242,14 @@ img.half-top {
 .gmb h4.table-text+table tr td:not(:first-of-type) { text-align: left !important }
 .gmb h4.table-text+table thead th:not(:first-of-type) { text-align: left !important }
 
-.gmb h4.table.table-first-left+table tbody tr td:first-of-type { text-align: left !important }
-.gmb h4.table.table-first-left+table thead th:first-of-type { text-align: left !important }
-.gmb h4.table.table-first-left+table tbody tr td:first-of-type {
-    padding: 3px 6px 3px 6px;
+.gmb h4.table-item+table tr td:first-of-type {
+    text-align: left !important;
+    padding-left: 6px;
 }
 
+.gmb h4.table-item+table tr th:first-of-type {
+    text-align: left !important;
+}
 
 .gmb h6 {
     color: black;
