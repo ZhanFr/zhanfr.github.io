@@ -1,1 +1,0 @@
-# gmbinder-sotdl-theme
