@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t}from"./chunks/framework.BAMIeXoT.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rulebook/careers/spy.md","filePath":"rulebook/careers/spy.md"}'),a={name:"rulebook/careers/spy.md"};function o(s,c,n,p,_,d){return t(),r("div")}const m=e(a,[["render",o]]);export{l as __pageData,m as default};
